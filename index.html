@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="HarvestFlow – Premium Rainwater Harvesting Solutions for residential and commercial use." />
+  <title>HarvestFlow – Save Water, Save Life</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500;600&display=swap"
+    rel="stylesheet" />
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+  <!-- ============================================================ NAVBAR -->
+  <nav class="nav" id="navbar" aria-label="Main navigation">
+    <div class="container nav__inner">
+      <a class="nav__logo" href="#" aria-label="HarvestFlow home">
+        <div class="nav__logo-dot" aria-hidden="true"></div>
+        HARVESTFLOW
+      </a>
+
+      <ul class="nav__links" role="list">
+        <li><a href="#home" class="active">Home</a></li>
+        
+         <li><a href="#services">Harvesting</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#facts">Facts &amp; Methods</a></li>
+        <li><a href="#usage">Usage Tips</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="nav__cta">
+        <a class="btn-ghost" href="#products" style="padding:.65rem 1.3rem;font-size:.875rem;">Products</a>
+        <a class="btn-primary" href="#contact" style="padding:.65rem 1.3rem;font-size:.875rem;">Get Started</a>
+      </div>
+
+      <button class="nav__burger" id="burger" aria-label="Toggle mobile menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile menu -->
+  <div class="nav__mobile" id="mobileMenu" role="dialog" aria-modal="true" aria-label="Mobile navigation">
+
+    <!-- Header row: logo + close -->
+    <div class="nav__mobile-header">
+      <span class="nav__mobile-logo">
+        <span class="nav__mobile-logo-dot" aria-hidden="true"></span>
+        HARVESTFLOW
+      </span>
+      <button class="nav__mobile-close" id="mobileClose" aria-label="Close menu">✕</button>
+    </div>
+
+    <!-- Nav links -->
+    <a href="#home">Home</a>
+    <a href="#services">Residential Harvesting</a>
+    <a href="#services">Commercial Harvesting</a>
+    <a href="#products">Products</a>
+    <a href="#facts">Facts &amp; Methods</a>
+    <a href="#usage">Usage Tips</a>
+    <a href="#faq">FAQ</a>
+    <a href="#contact">Contact Us</a>
+
+    <!-- CTA -->
+    <a class="btn-primary" href="#contact">Get Started →</a>
+  </div>
+
+
+  <!-- ============================================================ HERO -->
+  <section class="hero" id="home" aria-label="Hero section">
+    <div class="hero__orb hero__orb-1" aria-hidden="true"></div>
+    <div class="hero__orb hero__orb-2" aria-hidden="true"></div>
+
+    <div class="container">
+      <div class="hero__inner">
+        <div class="hero__content">
+          <div class="hero__badge reveal">
+            <span class="hero__badge-dot" aria-hidden="true"></span>
+            Sustainable Water Solutions
+          </div>
+
+          <h1 class="hero__title reveal reveal-delay-1">
+            Save Water,<br><em>Save Life</em>
+          </h1>
+          <p class="hero__sub reveal reveal-delay-2">
+            Innovative rainwater harvesting systems engineered for modern homes and commercial facilities. Turn every
+            raindrop into a resource.
+          </p>
+
+          <div class="hero__actions reveal reveal-delay-3">
+            <a class="btn-primary" href="#services">Explore Solutions <i class="fa-solid fa-arrow-right"></i></a>
+            <a class="btn-ghost" href="#contact">Talk to an Expert</a>
+          </div>
+
+          <div class="hero__stats reveal reveal-delay-4">
+            <div>
+              <div class="hero__stat-num">40–70%</div>
+              <div class="hero__stat-label">Bill reduction</div>
+            </div>
+            <div>
+              <div class="hero__stat-num">36mo</div>
+              <div class="hero__stat-label">ROI for commercial</div>
+            </div>
+            <div>
+              <div class="hero__stat-num">4-Stage</div>
+              <div class="hero__stat-label">Purification</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__visual" aria-hidden="true">
+          <div class="hero__card-float">
+            <div class="hero__card-icon"><i class="fa-solid fa-droplet"></i></div>
+            <div class="hero__card-title">Water Saved Today</div>
+            <div class="hero__card-sub">Your system is collecting efficiently</div>
+            <div class="hero__card-meter" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100">
+              <div class="hero__card-bar" style="width:78%"></div>
+            </div>
+            <div class="hero__card-labels"><span>0L</span><span>Tank: 78% full</span><span>250L</span></div>
+
+            <div style="margin-top:1.5rem;display:flex;gap:.75rem;">
+              <div
+                style="flex:1;background:rgba(111,207,106,.07);border:1px solid var(--c-border);border-radius:12px;padding:.75rem;text-align:center;">
+                <div style="font-family:var(--font-display);font-size:1.3rem;font-weight:800;color:var(--c-lime)">195L
+                </div>
+                <div style="font-size:.7rem;color:var(--c-muted);margin-top:.2rem">Stored</div>
+              </div>
+              <div
+                style="flex:1;background:rgba(56,217,192,.07);border:1px solid rgba(56,217,192,.2);border-radius:12px;padding:.75rem;text-align:center;">
+                <div style="font-family:var(--font-display);font-size:1.3rem;font-weight:800;color:var(--c-aqua)">4.2L
+                </div>
+                <div style="font-size:.7rem;color:var(--c-muted);margin-top:.2rem">Per Hour</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero__pill hero__pill-1">
+            <i class="fa-solid fa-shield-halved"></i> 4-Stage Filter Active
+          </div>
+          <div class="hero__pill hero__pill-2">
+            <i class="fa-solid fa-wifi"></i> Smart Monitor Connected
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================ SERVICES -->
+  <section class="services" id="services" aria-label="Harvesting services">
+    <div class="container">
+      <div class="services__header">
+        <p class="section-label reveal">What We Offer</p>
+        <h2 class="section-title reveal reveal-delay-1">Choose Your Harvesting<br>Solution</h2>
+        <p class="section-sub reveal reveal-delay-2" style="max-width:520px;margin-inline:auto;">Whether you're a
+          homeowner or running a large facility, we have a precision-engineered system tailored for your needs.</p>
+      </div>
+
+      <div class="services__grid">
+        <div class="service-card service-card--res reveal">
+          <div class="service-card__bg" aria-hidden="true"></div>
+          <div class="service-card__content">
+            <span class="service-card__chip"><i class="fa-solid fa-home"></i> Residential</span>
+            <h3 class="service-card__title">Residential Harvesting</h3>
+            <p class="service-card__desc">Transform your rooftop into a sustainable water source. Our residential
+              systems blend seamlessly with modern home aesthetics while delivering powerful performance.</p>
+            <div class="service-card__features">
+              <span class="service-card__feat"><i class="fa-solid fa-microchip"></i> Smart Home Ready</span>
+              <span class="service-card__feat"><i class="fa-solid fa-filter"></i> 4-Stage Purifier</span>
+              <span class="service-card__feat"><i class="fa-solid fa-plug"></i> Easy Install</span>
+            </div>
+            <a href="#contact" class="service-card__arrow" aria-label="Learn more about residential harvesting"><i
+                class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <div class="service-card service-card--com reveal reveal-delay-1">
+          <div class="service-card__bg" aria-hidden="true"></div>
+          <div class="service-card__content">
+            <span class="service-card__chip"><i class="fa-solid fa-industry"></i> Commercial</span>
+            <h3 class="service-card__title">Commercial Harvesting</h3>
+            <p class="service-card__desc">Scale your sustainability with high-capacity industrial reservoirs and
+              automated collection units built for factories, offices, and large complexes.</p>
+            <div class="service-card__features">
+              <span class="service-card__feat"><i class="fa-solid fa-database"></i> Massive Storage</span>
+              <span class="service-card__feat"><i class="fa-solid fa-leaf"></i> Zero Waste Tech</span>
+              <span class="service-card__feat"><i class="fa-solid fa-chart-line"></i> ROI Tracked</span>
+            </div>
+            <a href="#contact" class="service-card__arrow" aria-label="Learn more about commercial harvesting"><i
+                class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================ PRODUCTS -->
+  <section class="products" id="products" aria-label="Featured products">
+    <div class="container">
+      <div class="products__header">
+        <div>
+          <p class="section-label reveal">Our Range</p>
+          <h2 class="section-title reveal reveal-delay-1">Featured Products</h2>
+        </div>
+        <a class="btn-ghost reveal reveal-delay-2" href="#contact">Request Quote <i
+            class="fa-solid fa-arrow-right"></i></a>
+      </div>
+
+      <div class="products__grid">
+
+        <div class="product-card reveal">
+          <div class="product-card__img">
+            <img src="images/barrel.png" alt="Premium Rain Barrel 250L" loading="lazy" />
+          </div>
+          <div class="product-card__tag">Tank</div>
+          <div class="product-card__name">Premium Rain Barrel</div>
+          <div class="product-card__specs">Size: 250L &nbsp;·&nbsp; Specs: 1000mm<br>Ideal for residential gardens and
+            small households.</div>
+          <button class="product-card__btn"><i class="fa-solid fa-bag-shopping"></i> Shop Now</button>
+        </div>
+
+        <div class="product-card reveal reveal-delay-1">
+          <div class="product-card__img">
+            <img src="images/tank.png" alt="Premium Rain Tank 500L" loading="lazy" />
+          </div>
+          <div class="product-card__tag">Tank</div>
+          <div class="product-card__name">Premium Rain Tank</div>
+          <div class="product-card__specs">Size: 500L &nbsp;·&nbsp; Specs: 1200mm<br>Heavy-duty storage for mid-size
+            properties.</div>
+          <button class="product-card__btn"><i class="fa-solid fa-bag-shopping"></i> Shop Now</button>
+        </div>
+
+        <div class="product-card reveal reveal-delay-2">
+          <div class="product-card__img">
+            <img src="images/filter.png" alt="Leaf Eater Filter" loading="lazy" />
+          </div>
+          <div class="product-card__tag">Filter</div>
+          <div class="product-card__name">Leaf Eater Filter</div>
+          <div class="product-card__specs">Size: 90mm &nbsp;·&nbsp; Specs: Mesh<br>Prevents debris from entering your
+            storage.</div>
+          <button class="product-card__btn"><i class="fa-solid fa-bag-shopping"></i> Shop Now</button>
+        </div>
+
+        <div class="product-card reveal">
+          <div class="product-card__img">
+            <img src="images/diverter.png" alt="First Flush Diverter" loading="lazy" />
+          </div>
+          <div class="product-card__tag">Filter</div>
+          <div class="product-card__name">First Flush Diverter</div>
+          <div class="product-card__specs">Size: 20L &nbsp;·&nbsp; Specs: Automatic<br>Diverts the first flush of
+            contaminated water.</div>
+          <button class="product-card__btn"><i class="fa-solid fa-bag-shopping"></i> Shop Now</button>
+        </div>
+
+        <div class="product-card reveal reveal-delay-1">
+          <div class="product-card__img">
+            <img src="images/pump.png" alt="High Pressure Pump" loading="lazy" />
+          </div>
+          <div class="product-card__tag">System</div>
+          <div class="product-card__name">High Pressure Pump</div>
+          <div class="product-card__specs">Size: 0.75HP &nbsp;·&nbsp; Specs: 45L/min<br>Reliable pressure for whole-home
+            distribution.</div>
+          <button class="product-card__btn"><i class="fa-solid fa-bag-shopping"></i> Shop Now</button>
+        </div>
+
+        <div class="product-card reveal reveal-delay-2">
+          <div class="product-card__img">
+            <img src="images/monitor.png" alt="Smart Level Monitor" loading="lazy" />
+          </div>
+          <div class="product-card__tag">Control</div>
+          <div class="product-card__name">Smart Level Monitor</div>
+          <div class="product-card__specs">Size: Wireless &nbsp;·&nbsp; Specs: WiFi<br>Real-time tank monitoring from
+            your phone.</div>
+          <button class="product-card__btn"><i class="fa-solid fa-bag-shopping"></i> Shop Now</button>
+        </div>
+
+        <div class="product-card reveal">
+          <div class="product-card__img">
+            <img src="images/uv.png" alt="UV Sterilizer Unit" loading="lazy" />
+          </div>
+          <div class="product-card__tag">Treatment</div>
+          <div class="product-card__name">UV Sterilizer Unit</div>
+          <div class="product-card__specs">Size: 30L/min &nbsp;·&nbsp; Specs: 40W<br>Eliminates bacteria for clean, safe
+            water.</div>
+          <button class="product-card__btn"><i class="fa-solid fa-bag-shopping"></i> Shop Now</button>
+        </div>
+
+        <div class="product-card reveal reveal-delay-1">
+          <div class="product-card__img">
+            <img src="images/suction.png" alt="Floating Suction" loading="lazy" />
+          </div>
+          <div class="product-card__tag">System</div>
+          <div class="product-card__name">Floating Suction</div>
+          <div class="product-card__specs">Size: 2 Meters &nbsp;·&nbsp; Specs: SS Mesh<br>Draws the cleanest water from
+            mid-tank depth.</div>
+          <button class="product-card__btn"><i class="fa-solid fa-bag-shopping"></i> Shop Now</button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================ FACTS & METHODS -->
+  <section class="facts" id="facts" aria-label="Rainwater facts and methods">
+    <div class="container">
+      <div class="facts__inner">
+
+        <div class="facts__left">
+          <p class="section-label reveal">Why It Matters</p>
+          <h2 class="section-title reveal reveal-delay-1">Rainwater Facts &amp; Methods</h2>
+          <p class="section-sub reveal reveal-delay-2">Harvesting rainwater is a smart, proven way to manage water
+            resources—for your wallet, your garden, and the planet.</p>
+
+          <div class="facts__highlights reveal reveal-delay-3">
+            <div class="facts__hl"><i class="fa-solid fa-check"></i> Reduce water bills significantly</div>
+            <div class="facts__hl"><i class="fa-solid fa-check"></i> Alternative supply during restrictions</div>
+            <div class="facts__hl"><i class="fa-solid fa-check"></i> Maintain a lush, healthy garden</div>
+            <div class="facts__hl"><i class="fa-solid fa-check"></i> Supports environmental sustainability</div>
+          </div>
+        </div>
+
+        <div class="facts__grid">
+          <div class="fact-card reveal">
+            <div class="fact-card__icon"><i class="fa-solid fa-droplet"></i></div>
+            <h5>Reduce Water Bills</h5>
+            <p>Protects your monthly supply and ensures long-term savings of 40–70% on water costs.</p>
+          </div>
+          <div class="fact-card reveal reveal-delay-1">
+            <div class="fact-card__icon"><i class="fa-solid fa-leaf"></i></div>
+            <h5>Healthy Garden</h5>
+            <p>Delivers naturally soft, nutrient-rich water for lush plants and organic landscapes.</p>
+          </div>
+          <div class="fact-card reveal reveal-delay-2">
+            <div class="fact-card__icon"><i class="fa-solid fa-faucet-drip"></i></div>
+            <h5>Alternative Irrigation</h5>
+            <p>Ideal for landscapes and non-potable household needs—toilet flushing, laundry, and more.</p>
+          </div>
+          <div class="fact-card reveal reveal-delay-3">
+            <div class="fact-card__icon"><i class="fa-solid fa-cloud-rain"></i></div>
+            <h5>Reduce Storm Runoff</h5>
+            <p>Helps prevent erosion and reduces pollutant load on local waterways and drainage systems.</p>
+          </div>
+          <div class="fact-card reveal">
+            <div class="fact-card__icon"><i class="fa-solid fa-database"></i></div>
+            <h5>Backup Storage</h5>
+            <p>Maintain water availability even during peak demand periods or supply disruptions.</p>
+          </div>
+          <div class="fact-card reveal reveal-delay-1">
+            <div class="fact-card__icon"><i class="fa-solid fa-shield-halved"></i></div>
+            <h5>Supply During Restrictions</h5>
+            <p>A reliable independent water source when municipal restrictions are in force.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- CTA Banner -->
+      <div class="cta-banner reveal">
+        <h2 class="cta-banner__title">Ready to start saving water?</h2>
+        <p class="cta-banner__sub">Join thousands of households and businesses that harvest smarter.</p>
+        <div class="cta-banner__actions">
+          <a class="btn-primary" href="#contact">Get a Free Consultation <i class="fa-solid fa-arrow-right"></i></a>
+          <a class="btn-ghost" href="#products">Browse Products</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================ WATER USAGE TIPS -->
+  <section class="usage" id="usage" aria-label="Water usage tips">
+    <div class="container">
+      <div class="usage__inner">
+
+        <div>
+          <p class="section-label reveal">Best Practices</p>
+          <h2 class="section-title reveal reveal-delay-1">Effective Water Usage</h2>
+          <p class="section-sub reveal reveal-delay-2">Tips and guidelines on how to make the most of collected
+            rainwater—for your home and community.</p>
+
+          <div class="usage__tips">
+            <div class="usage__tip reveal">
+              <div class="usage__tip-num">01</div>
+              <div class="usage__tip-text"><strong>Garden Irrigation Schedules</strong>Water early morning or late
+                evening to minimize evaporation loss.</div>
+            </div>
+            <div class="usage__tip reveal reveal-delay-1">
+              <div class="usage__tip-num">02</div>
+              <div class="usage__tip-text"><strong>Non-Potable Household Uses</strong>Use collected water for toilet
+                flushing, laundry pre-rinse, and outdoor cleaning.</div>
+            </div>
+            <div class="usage__tip reveal reveal-delay-2">
+              <div class="usage__tip-num">03</div>
+              <div class="usage__tip-text"><strong>Rain Garden Systems</strong>Design your outdoor space to channel
+                runoff into planted infiltration zones.</div>
+            </div>
+            <div class="usage__tip reveal reveal-delay-3">
+              <div class="usage__tip-num">04</div>
+              <div class="usage__tip-text"><strong>Regular Maintenance</strong>Inspect gutters, filters, and tanks twice
+                yearly—before and after rainy season.</div>
+            </div>
+            <div class="usage__tip reveal reveal-delay-4">
+              <div class="usage__tip-num">05</div>
+              <div class="usage__tip-text"><strong>Saving Tips</strong>Combine drip irrigation with harvested water for
+                maximum efficiency.</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="usage__videos">
+          <div class="video-thumb reveal">
+            <a href="https://www.youtube.com/watch?v=tiOAsM-mIKE" target="_blank" rel="noopener"
+              aria-label="Watch video: Rain gardens in the industry">
+              <img src="https://img.youtube.com/vi/tiOAsM-mIKE/maxresdefault.jpg"
+                alt="Rain garden technology video thumbnail" loading="lazy" />
+              <div class="video-thumb__play" aria-hidden="true"><i class="fa-solid fa-play"></i></div>
+              <div class="video-thumb__overlay">
+                <p class="video-thumb__caption">How growing technology is used to create rain gardens</p>
+              </div>
+            </a>
+          </div>
+          <div class="video-thumb reveal reveal-delay-1">
+            <a href="https://www.youtube.com/watch?v=nUC7q6KkbxY" target="_blank" rel="noopener"
+              aria-label="Watch video: Community water technologies">
+              <img src="https://img.youtube.com/vi/nUC7q6KkbxY/maxresdefault.jpg"
+                alt="Community water technology video thumbnail" loading="lazy" />
+              <div class="video-thumb__play" aria-hidden="true"><i class="fa-solid fa-play"></i></div>
+              <div class="video-thumb__overlay">
+                <p class="video-thumb__caption">New technologies contributing positively to the community</p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================ LATEST DEVELOPMENTS -->
+  <section class="developments" id="developments" aria-label="Latest developments">
+    <div class="container">
+      <p class="section-label reveal">Stay Informed</p>
+      <h2 class="section-title reveal reveal-delay-1">Latest Developments</h2>
+      <p class="section-sub reveal reveal-delay-2" style="max-width:560px;">Follow the latest innovations and community
+        projects shaping the future of water management globally.</p>
+
+      <div class="developments__grid">
+
+        <div class="dev-card reveal">
+          <a href="https://www.youtube.com/watch?v=tiOAsM-mIKE" target="_blank" rel="noopener"
+            aria-label="Watch development video 1">
+            <div class="dev-card__thumb">
+              <img src="https://img.youtube.com/vi/tiOAsM-mIKE/maxresdefault.jpg" alt="Rain garden technology"
+                loading="lazy" />
+              <div class="dev-card__play" aria-hidden="true"><i class="fa-solid fa-play"></i></div>
+            </div>
+          </a>
+          <div class="dev-card__body">
+            <p>How growing technology is leveraged to create innovative rain gardens in the modern industry.</p>
+          </div>
+        </div>
+
+        <div class="dev-card reveal reveal-delay-1">
+          <a href="https://www.youtube.com/watch?v=nUC7q6KkbxY" target="_blank" rel="noopener"
+            aria-label="Watch development video 2">
+            <div class="dev-card__thumb">
+              <img src="https://img.youtube.com/vi/nUC7q6KkbxY/maxresdefault.jpg" alt="Community water technology"
+                loading="lazy" />
+              <div class="dev-card__play" aria-hidden="true"><i class="fa-solid fa-play"></i></div>
+            </div>
+          </a>
+          <div class="dev-card__body">
+            <p>New applications contributing positively to the community through smarter water solutions.</p>
+          </div>
+        </div>
+
+        <div class="dev-card reveal reveal-delay-2">
+          <a href="https://www.youtube.com/watch?v=tuN0Cs2XiEc" target="_blank" rel="noopener"
+            aria-label="Watch development video 3">
+            <div class="dev-card__thumb">
+              <img src="https://img.youtube.com/vi/tuN0Cs2XiEc/maxresdefault.jpg" alt="Global water management project"
+                loading="lazy" />
+              <div class="dev-card__play" aria-hidden="true"><i class="fa-solid fa-play"></i></div>
+            </div>
+          </a>
+          <div class="dev-card__body">
+            <p>How technologies are applied to community projects for better water management across the globe.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================ FAQ -->
+  <section class="faq" id="faq" aria-label="Frequently asked questions">
+    <div class="container">
+      <div class="faq__inner">
+
+        <div class="faq__left">
+          <p class="section-label reveal">Got Questions?</p>
+          <h2 class="section-title reveal reveal-delay-1">Frequently Asked Questions</h2>
+          <p class="section-sub reveal reveal-delay-2">Everything you need to know about our rainwater harvesting
+            systems.</p>
+
+          <div class="faq__contact reveal reveal-delay-3">
+            <p>Can't find your answer? Reach out—our team responds within 24 hours.</p>
+            <a class="btn-primary" href="#contact" style="font-size:.875rem;padding:.75rem 1.5rem;">
+              <i class="fa-solid fa-envelope"></i> Contact Us
+            </a>
+          </div>
+        </div>
+
+        <div class="accordion" role="list">
+
+          <div class="accordion__item reveal" role="listitem">
+            <button class="accordion__trigger" aria-expanded="false">
+              <div class="accordion__icon" aria-hidden="true"><i class="fa-solid fa-filter"></i></div>
+              Is the harvested water safe for household use?
+              <i class="accordion__chevron fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="accordion__body">
+              <p>Absolutely. Rainwater is naturally soft and ideal for laundry, toilets, and irrigation. With our
+                integrated multi-stage filtration system, it can even be used for showers and specialized appliances
+                without scaling issues.</p>
+            </div>
+          </div>
+
+          <div class="accordion__item reveal reveal-delay-1" role="listitem">
+            <button class="accordion__trigger" aria-expanded="false">
+              <div class="accordion__icon" aria-hidden="true"><i class="fa-solid fa-bolt"></i></div>
+              Does the system require professional maintenance?
+              <i class="accordion__chevron fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="accordion__body">
+              <p>Our systems are designed for low maintenance. We recommend a simple inspection twice a year—once before
+                and once after the rainy season—to clear debris from gutters and clean the primary mesh filters.</p>
+            </div>
+          </div>
+
+          <div class="accordion__item reveal reveal-delay-2" role="listitem">
+            <button class="accordion__trigger" aria-expanded="false">
+              <div class="accordion__icon" aria-hidden="true"><i class="fa-solid fa-piggy-bank"></i></div>
+              How much can I actually save on my water bills?
+              <i class="accordion__chevron fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="accordion__body">
+              <p>Savings vary by region and rainfall, but most residential users report a 40% to 70% reduction in their
+                water utility bills. For commercial facilities, the return on investment (ROI) is often achieved within
+                just 36 months.</p>
+            </div>
+          </div>
+
+          <div class="accordion__item reveal reveal-delay-3" role="listitem">
+            <button class="accordion__trigger" aria-expanded="false">
+              <div class="accordion__icon" aria-hidden="true"><i class="fa-solid fa-layer-group"></i></div>
+              Can the system be integrated into my existing home?
+              <i class="accordion__chevron fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="accordion__body">
+              <p>Yes! We specialize in "Retrofit Flow" installations. We can adapt your existing downspouts and plumbing
+                to divert water into our storage units with minimal structural changes to your property.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================ CONTACT -->
+  <section class="contact" id="contact" aria-label="Contact us">
+    <div class="container">
+      <div style="text-align:center;margin-bottom:3rem;">
+        <p class="section-label reveal" style="justify-content:center;">Get In Touch</p>
+        <h2 class="section-title reveal reveal-delay-1">Let's Start Your Project</h2>
+        <p class="section-sub reveal reveal-delay-2" style="max-width:480px;margin-inline:auto;">Fill in the form and
+          our specialists will get back to you within one business day.</p>
+      </div>
+
+      <div class="contact__inner">
+        <div class="contact__form-wrap reveal">
+          <h3 class="contact__form-title">Send Us a Message</h3>
+          <p class="contact__form-sub">We'd love to hear about your project.</p>
+
+          <form id="contactForm" novalidate>
+            <div class="form-group" id="fg-name">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" placeholder="e.g. Ahmed Khan" autocomplete="name" />
+              <span class="error-msg">Please enter your full name.</span>
+            </div>
+            <div class="form-group" id="fg-email">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" placeholder="you@example.com" autocomplete="email" />
+              <span class="error-msg">Please enter a valid email address.</span>
+            </div>
+            <div class="form-group" id="fg-message">
+              <label for="message">Your Message</label>
+              <textarea id="message" rows="5" placeholder="Describe your project or question..."></textarea>
+              <span class="error-msg">Please write a message.</span>
+            </div>
+            <button type="submit" class="contact__submit">
+              <i class="fa-solid fa-paper-plane"></i> Send Message
+            </button>
+          </form>
+        </div>
+
+        <div class="contact__map-wrap reveal reveal-delay-1">
+          <div class="contact__map-box">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3616.5341929957053!2d67.06268877504392!3d24.981958077850162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb340e584b891c3%3A0x29b2cbc198ba2dbd!2sAptech%20Computer%20Education%20North%20Karachi%20Center!5e0!3m2!1sen!2s!4v1776635281132!5m2!1sen!2s"
+              title="Our Location – Aptech North Karachi" allowfullscreen loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+
+          <div class="contact__address">
+            <i class="fa-solid fa-location-dot"></i>
+            <div class="contact__address-text">
+              <strong>Aptech Computer Education North Karachi</strong>
+              <span>A 563, Main Shahrah-e-Usman, Sector 11-A, North Karachi, 75850, Pakistan</span>
+            </div>
+          </div>
+
+          <div class="contact__address">
+            <i class="fa-solid fa-envelope"></i>
+            <div class="contact__address-text">
+              <strong>Email Us</strong>
+              <span><a href="mailto:info-nk@aptechnorth.edu.pk"
+                  style="color:var(--c-lime)">info-nk@aptechnorth.edu.pk</a></span>
+            </div>
+          </div>
+
+          <div class="contact__address">
+            <i class="fa-brands fa-whatsapp" style="color:var(--c-lime)"></i>
+            <div class="contact__address-text">
+              <strong>WhatsApp</strong>
+              <span><a href="https://wa.me/9230004653662" target="_blank" rel="noopener" style="color:var(--c-lime)">+92
+                  300 0465 3662</a></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================ FOOTER -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">HARVESTFLOW</div>
+        <div class="footer__socials" aria-label="Social media links">
+          <a href="https://aptechnorth.com.pk/nk.php" target="_blank" rel="noopener" class="footer__social"
+            aria-label="Website"><i class="fa-solid fa-globe"></i></a>
+          <a href="https://www.facebook.com/AptechNorthKhi/" target="_blank" rel="noopener" class="footer__social"
+            aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/aptechnorthkarachi/" target="_blank" rel="noopener" class="footer__social"
+            aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://wa.me/9230004653662" target="_blank" rel="noopener" class="footer__social"
+            aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+        <nav class="footer__links" aria-label="Footer navigation">
+          <a href="#home">Home</a>
+          <a href="#services">Services</a>
+          <a href="#products">Products</a>
+          <a href="#faq">FAQ</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+      <div class="footer__divider"></div>
+      <div class="footer__bottom">
+        <p class="footer__copy">© 2026 HarvestFlow · Rain Water Harvesting. All rights reserved.</p>
+        <div class="footer__bottom-links">
+          <a id="privacyTrigger">Privacy Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Toast container -->
+  <div class="toast-container" id="toastContainer" aria-live="polite" aria-atomic="true"></div>
+
+  <!-- Scroll to top -->
+  <button id="scroll-top" aria-label="Scroll to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+  <!-- Privacy Modal -->
+  <div class="modal-overlay" id="privacyModal" role="dialog" aria-modal="true" aria-labelledby="privacyModalTitle">
+    <div class="modal-box">
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:1.25rem;">
+        <h3 id="privacyModalTitle"><i class="fa-solid fa-shield-halved"
+            style="color:var(--c-lime);margin-right:.5rem;"></i> Privacy Policy</h3>
+        <button class="modal-close" id="modalClose" aria-label="Close privacy policy">✕</button>
+      </div>
+      <p>At <strong>HarvestFlow (RWH)</strong>, your privacy is our priority. We handle your data with care and
+        transparency.</p>
+      <h5>Data Collection</h5>
+      <p>We only collect the Name and Email Address you provide through our contact form.</p>
+      <h5>Usage</h5>
+      <p>Your information is strictly used to reply to your inquiries. We never share or sell your data to third
+        parties.</p>
+      <h5>Contact Information</h5>
+      <p>For any privacy concerns, contact us at <strong><a href="mailto:info-nk@aptechnorth.edu.pk"
+            style="color:var(--c-lime)">info-nk@aptechnorth.edu.pk</a></strong></p>
+      <div class="modal-footer-btn">
+        <button class="btn-primary" id="modalAccept" style="font-size:.875rem;padding:.7rem 1.5rem;">I
+          Understand</button>
+      </div>
+    </div>
+  </div>
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
